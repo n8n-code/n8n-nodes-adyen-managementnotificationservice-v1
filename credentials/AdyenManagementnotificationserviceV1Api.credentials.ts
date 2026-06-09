@@ -8,7 +8,7 @@ import type {
 export class AdyenManagementnotificationserviceV1Api implements ICredentialType {
 	name = 'N8nDevAdyenManagementnotificationserviceV1Api';
 
-	displayName = 'adyen-managementnotificationservice-v1 API';
+	displayName = 'Adyen Managementnotificationservice V1 API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenManagementnotificationserviceV1/adyen-managementnotificationservice-v1.svg', dark: 'file:../nodes/AdyenManagementnotificationserviceV1/adyen-managementnotificationservice-v1.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenManagementnotificationserviceV1Api implements ICredentialType 
 			default: 'https://management-test.adyen.com/v1',
 			required: true,
 			placeholder: 'https://management-test.adyen.com/v1',
-			description: 'The base URL of your adyen-managementnotificationservice-v1 API server',
+			description: 'The base URL of your Adyen Managementnotificationservice V1 API server',
 		},
 		{
 			displayName: 'API Key',

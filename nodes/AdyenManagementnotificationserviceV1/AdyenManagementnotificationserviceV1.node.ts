@@ -3,14 +3,14 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 
 export class AdyenManagementnotificationserviceV1 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-managementnotificationservice-v1',
+		displayName: 'Adyen Managementnotificationservice V1',
 		name: 'N8nDevAdyenManagementnotificationserviceV1',
 		icon: { light: 'file:./adyen-managementnotificationservice-v1.svg', dark: 'file:./adyen-managementnotificationservice-v1.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Adyen uses webhooks to inform your system about events that happen with your Adyen company and merchant accounts, stores, payment terminals, and payment methods when using [Management API](https://..',
-		defaults: { name: 'adyen-managementnotificationservice-v1' },
+		description: 'Adyen webhooks notify system of Management API events.',
+		defaults: { name: 'Adyen Managementnotificationservice V1' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
