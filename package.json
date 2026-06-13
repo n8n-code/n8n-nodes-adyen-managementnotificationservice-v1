@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-adyen-managementnotificationservice-v1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adyen webhooks notify system of Management API events.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-managementnotificationservice-v1",
